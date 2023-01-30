@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boogaloo&family=Comfortaa:wght@700&family=Kalam&family=Lilita+One&family=Londrina+Solid&family=Luckiest+Guy&family=Rubik+80s+Fade&family=Satisfy&family=Seaweed+Script&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Boogaloo', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rubik 80s Fade', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Seaweed Script', cursive; */
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #FFD6EC
+}
+
+hr {
+    color: #400E32;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+}
+
+.top-container {
+    background-color: #00005C;
+    position: relative;
+    height: 629px;
+}
+
+
+h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 400%;
+    color: #C060A1;
+    margin-top: 0;
+    top: 80px;
+    position: relative;
+    padding-top: 65px;
+}
+
+h2 {
+    font-family: 'Merryweather', 'Kalam', cursive;
+    font-size: 300%;
+    color: #400E32;
+    margin-top: 0;
+    top: 95px;
+    padding-top: 70px;
+}
+
+p {
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    margin-top: 0;
+    top: 95px;
+    padding-top: 65px;
+
+}
+
+.wed {
+    font-family: 'Kalam', cursive;
+    font-size: 300%;
+    color: #C060A1;
+    top: 35px;
+    margin: 0px;
+    position: relative;
+    font-weight: normal;
+}
+
+
+.cloud {
+    position: absolute;
+    top: 31px;
+    right: 290px;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 195px;
+    left: 215px;
+}
+
+
+.mountain {
+    margin-top: 43px;
+}
+
+.middle-container{
+    width: 100%;
+}
+
+.name {
+    font-family: 'Merryweather', 'Satisfy', cursive;
+    font-size: 440%;
+    color: #400E32;
+    margin: 0px auto;
+    top: -15px;
+    padding: 150px 0px;
+    width: 385px;
+}
+
+.highlight {
+    color: #D61355;
+}
+
+.skills table {
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    margin-top: 0;
+    top: 95px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    margin-top: 0;
+    top: 95px;
+    padding-top: 65px;
+}
+
+table.tables {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbody {
+    font-size: 25px;
+}
+
+th,
+td {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.profile {
+    position: relative;
+    height: 620px;
+}
+
+.in-profile {
+    position: absolute;
+}
+
+#one {
+    height: 380px;
+    width: 380px;
+    top: 150px;
+    left: 120px;
+    border: solid #400E32 5px;
+    border-radius: 50%;
+}
+
+#two {
+    top: 100px;
+    right: 250px;
+}
+
+#three {
+    top: 370px;
+    right: 280px;
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    font-size: 22px;
+
+}
+
+#rjt {
+    text-decoration: none;
+    color: #400E32;
+}
+
+#rjt:hover {
+    color: #D61355;
+
+}
+
+#four {
+    top: 425px;
+    right: 180px;
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    font-size: 22px;
+}
+
+.bottom-container{
+    padding: 30px 0px 30px;
+    background-color: #D61355;
+    font-size: 17px;
+    color: #400E32;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #400E32;
+    font-family: 'Merryweather', 'Kalam', cursive;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.bottom-container a:hover{
+    color: #F48484;
+}
+
+.footer-name{
+    padding-top: 25px;
+    font-family: 'Merryweather', 'Kalam', cursive;
+    font-size: 0.75em;
+}
+
+.experience{
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    margin:0px auto 70px;
+    width: 36%;
+    font-size: 22px;
+}
+
+.contact{
+    font-family: 'Merryweather', 'Kalam', cursive;
+    color: #400E32;
+    width: 51%;
+    font-size: 22px;
+    margin:0px auto 70px;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 3px #400E32;
+    -moz-box-shadow: 0px 1px 3px #400E32;
+    box-shadow: 0px 1px 3px #400E32;
+    color: #F48484;
+    font-family: 'Merryweather', 'Kalam', cursive;
+    font-size: 20px;
+    background: #400E32;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: #F48484;
+    background: #D61355;
+    text-decoration: none;
+  }
